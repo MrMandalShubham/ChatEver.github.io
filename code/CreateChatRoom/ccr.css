@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#BackID {
+    /* border: 3px solid red; */
+    /* background: url(/data/image/ccrback.png); */
+    border: 10px solid black;
+    background: #000;
+    background-size: 100% 100%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    filter: brightness(40%);
+    z-index: -1;
+}
+
+#PageID {
+    /* border: 2px solid green; */
+    height: 100vh;
+    width: 99%;
+}
+
+#Box1ID {
+    /* border: 2px solid blue; */
+    height: 50%;
+    width: auto;
+    align-items: flex-start;
+}
+
+#Box2ID {
+    /* border: 2px solid blue; */
+    height: 50%;
+    width: auto;
+    align-items: flex-end;
+}
+
+#PagepcrID {
+    height: 100%;
+    border: 2px solid magenta;
+    background: url(/data/image/pcr.png);
+    background-size: 100% 100%;
+    /* filter: brightness(60%); */
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#OpcrID {
+    color: rgb(1, 232, 248);
+    background: rgba(0, 0, 255, 0.295);
+    text-shadow: 3px 3px 0px black;
+}
+
+#OpcrID p {
+    color: ivory;
+}
+
+#OpcrID:hover {
+    box-shadow: 0px 0px 30px blue,
+        0px 0px 50px blue;
+}
+
+#PagercrID {
+    height: 100%;
+    border: 2px solid magenta;
+    background: url(/data/image/rcr.png);
+    background-size: 100% 100%;
+    /* filter: brightness(70%); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#JrcrID {
+    /* border: 2px solid red; */
+    color: rgb(1, 232, 248);
+    text-shadow: 3px 3px 0px black;
+    background: rgba(0, 0, 255, 0.295);
+}
+
+#JrcrID p {
+    color: ivory;
+}
+
+#JrcrID:hover {
+    box-shadow: 0px 0px 30px blue,
+        0px 0px 50px blue;
+}
+
+#Page2ID{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* background: #000; */
+    justify-content: center;
+    align-items: center;
+    z-index: -2;
+}
+
+#Box3ID{
+    position: fixed;
+    height: 60%;
+    width: 70%;
+}
+
+
+
+#CpcrID{
+    position: relative;
+    border: 1px solid green;
+    background: rgba(0, 0, 0, 0.76);
+    box-shadow: 0px 0px 15px white;
+    border: 3px solid gray;
+    border-radius: 10px;
+}
+#CpcrID form{
+    height: 100%;
+    color: ivory;
+    font-weight: 600;
+}
+#CpcrID form ul{
+    list-style: none;
+    padding: 0px;
+}
+#CpcrID form input{
+    background: transparent;
+    border: transparent;
+    border-bottom: 2px solid lavender;
+    outline: none;
+    width: 100%;
+    color: lightblue;
+    text-align: center;
+    font-size: larger;
+}
+#CpcrID form button{
+    background: rgba(68, 67, 67, 0.562);
+    color: rgb(5, 253, 170);
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+ /* Creat Chat Room Option Close Button */
+#Close{
+    height: 50px;
+    width: 50px;
+    background: black;
+    border: 3px solid greenyellow;
+    float: right;
+}
+

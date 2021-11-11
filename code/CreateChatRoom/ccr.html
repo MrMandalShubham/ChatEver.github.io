@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatEver__CreateChatRoom</title>
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="ccr.css">
+</head>
+
+<body>
+    <div class="contanir-fluid" id="BackID"></div>
+    <div class="contanir d-flex flex-column justify-content-center" id="PageID">
+        <div class="row d-flex flex-column" id="Box1ID">
+            <div class="col-lg-6 col-md-8 col-sm-10" id="PagepcrID">
+                <div class="row fs-1 p-5" id="OpcrID" onclick="CpcrOpen()">
+                    Create Private Chat Room..
+                    <p class="fs-4"> Plaing with friends <br> IN <br> Secure chat</p>
+                </div>
+            </div>
+        </div>
+        <div class="row d-flex flex-column" id="Box2ID">
+            <div class="col-lg-6 col-md-8 col-sm-10" id="PagercrID">
+                <div class="row fs-1 p-5" id="JrcrID" onclick="JrcrOpen()">
+                    Join Random Chat Room..
+                    <p class="fs-4"> Tallk with stranger <br> AND <br> Find new</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="cotanir-fluid d-flex" id="Page2ID">
+        <div class="row d-flex flex-column" id="Box3ID">
+            <div class="col" id="CpcrID">
+                <div class="row" id="Close" onclick="CpcrClose()"></div>
+                <form action="" method="post" class="fs-5 d-flex flex-column align-items-center justify-content-center">
+                    <ul>
+                        <li><label for="">ROOM NAME</label></li>
+                        <li><input type="text" required autocomplete="off" id="NameID"></li>
+                        <li class="mt-5"><label for="">ROOM CODE</label></li>
+                        <li><input type="text" required autocomplete="off" id="CodeID"></li>
+                        <li class="d-flex flex-column mt-4">
+                            <button type="submit" class="mb-2">CREATE</button>
+                            <button type="submit">JOIN</button>
+                        </li>
+                    </ul>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="ccr.js"></script>
+</body>
+
+</html>
