@@ -1,4 +1,4 @@
-const socket = io('http://localhost:3000')
+const socket = io('https://	185.199.108.153:3000')
 const Form  = document.getElementById('formID');
 const massaging = document.getElementById('InputText');
 const massageClick = document.getElementById('btnID');
