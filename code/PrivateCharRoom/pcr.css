@@ -1,0 +1,134 @@
+
+
+#BackID{
+    border: 10px solid black;
+    background-image: url(/data/image/github.jpg);
+    background-size: 100% 100%;
+    height: 100vh;
+    width: 100%;
+    filter: blur(5px);
+    position: fixed;
+}
+#FrontID{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    padding: 20px;
+    width: 100%;
+    height: auto;
+    border-bottom: 15vh solid transparent;
+}
+
+#Process{
+    border: 1px solid transparent;
+
+}
+
+#lineX {
+    /* border: 2px solid red; */
+    align-items: flex-end;
+}
+
+#lineY{
+    /* border: 2px solid red; */
+    align-items: flex-start;
+}
+
+#lineZ{
+    border: 1px solid transparent;
+}
+
+#lineX div{
+    display: block;
+    background: rgba(137, 43, 226, 0.486);
+    border: 2px solid blueviolet;
+    border-radius: 10px 0px;
+    box-shadow: -3px 3px 10px blueviolet;
+    color: ivory;
+    word-wrap: break-word;
+    padding: 2vh;
+    /* text-align: center; */
+    animation: Effect 0.5s forwards;
+}
+
+#SendTrue{
+    width: 35px;
+    float: inline-end;
+}
+
+#lineY div{
+    background: rgba(43, 205, 226, 0.486);
+    border: 2px solid cyan;
+    border-radius: 0px 10px;
+    box-shadow: 3px 3px 10px darkcyan;
+    color: ivory;
+    word-wrap: break-word;
+    padding: 2vh;
+    /* text-align: center; */
+    animation: Effect 0.5s forwards;
+}
+
+#RecivedTrue{
+    width: 35px;
+    float: inline-end;
+}
+
+#Input form{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    background: rgba(223, 226, 43, 0.486);
+    border: 2px solid yellow;
+    border-radius: 9px;
+    box-shadow: 3px 3px 10px yellow;
+    position: fixed;
+    bottom: 30px;
+}
+#Input input{
+    display:block;
+    word-wrap: break-word;
+    word-break: break-all;
+    background: transparent;
+    color: black;
+    width: 95%;
+    padding: 10px;
+    outline: none;
+    border: transparent;
+    text-align: center;
+}
+#btnID{
+    position: relative;
+    right: 5px;
+    background: transparent;
+    border: transparent;
+    
+ 
+}
+#send_btnID{
+    width: 40px;
+    /* position: absolute; */
+    /* animation: Rotate 1s linear infinite; */
+}
+#send_btnID:hover{
+    width: 40px;
+}
+#send_btnID:focus{
+    width: 45px;
+}
+
+@keyframes Rotate {
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes Effect {
+    0%{
+        filter: blur(10px);
+    }
+    100%{
+        filter: blur(0px);
+    }
+}
