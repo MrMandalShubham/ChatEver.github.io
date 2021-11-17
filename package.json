@@ -2,8 +2,9 @@
   "name": "chat_ever",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "server/server.js",
   "scripts": {
+    "test": "server/server.js"
     "devStart": "nodemon server/server.js"
   },
   "author": "",
