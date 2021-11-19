@@ -7,7 +7,7 @@
     /* border: 3px solid red; */
     /* background: url(/data/image/ccrback.png); */
     border: 10px solid black;
-    background: #000;
+    background: rgb(0, 0, 0);
     background-size: 100% 100%;
     height: 100vh;
     width: 100%;
@@ -149,8 +149,7 @@
 #Close{
     height: 50px;
     width: 50px;
-    background: black;
-    border: 3px solid greenyellow;
+    background: url(/data/svg/cross.svg);
+    border: 3px solid darkgray;
     float: right;
 }
-

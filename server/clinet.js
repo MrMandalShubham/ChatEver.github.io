@@ -1,11 +1,18 @@
-const socket = io('https://	185.199.108.153:3000')
+const socket = io('http://localhost:3000')
 const Form  = document.getElementById('formID');
 const massaging = document.getElementById('InputText');
 const massageClick = document.getElementById('btnID');
 
-socket.on('wellcome', data =>{
-    console.log(data)
+socket.emit("True", "Some One is Joining us")
+
+socket.on('joining', data =>{
+    // window.alert(data)
+    // setTimeout(() => {
+    //     window.closed()
+    // }, 500);
 })
+
+
 
 Form.addEventListener('submit', e => {
     e.preventDefault()
@@ -15,7 +22,6 @@ Form.addEventListener('submit', e => {
 })
 
 socket.on('clint2', message =>{
-    console.log(message)
         let x = document.getElementById('send_btnID');
         let I = message;
         let y = document.getElementById('Process');
